@@ -1,0 +1,19 @@
+usage: ./run [-a] [-all] [-d] [-f] [-h] [-s] [-u] [-L level ]  
+	 [--help] [-Q]
+	
+  ------- Listing options -------
+  -a              All files are listed(private files also).
+  -d              List directories only.
+  -f              Print the full path prefix for each file.
+  -L level        Descend only level directories deep.
+
+  
+  ------- File options -------
+  -Q              Quote filenames with double quotes.
+  -u              Displays file owner name.
+  -s              Print the size in bytes of each file.
+  -h              Print the size in a more human readable way.
+  
+  ------- Miscellaneous options -------
+  --help          Print usage and this help message and exit.
+  -all		  Print all information about files.
